@@ -1,0 +1,52 @@
+body{
+    background-image: url(./images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calendar{
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bolder;
+    color: black;
+    margin: 80px 50px;
+}
+
+.month{
+    text-align: center;
+    background:white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+
+table, th, td{
+    table-layout: fixed;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 27px;
+    border-collapse: collapse;
+     
+}
+
+tr, td, th{
+    padding: 15px;
+}
+
+th{
+    color:white;
+    background-color: #009900;
+    font-family: arial black;
+
+}
+
+td{
+    background: #0026Ad;
+    color: yellow;
+
+}
+
+td:hover{
+    background: green;
+}
