@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #1a1a1a; */
+        min-height: 800vh;
+        margin: 0;
+        
+    }
+    .progress-container{
+        width: 300px;
+    }
+    .progress-bar{
+        width: 100%;
+        height: 20px;
+        background-color: #ee4;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .progress-fill{
+        width: 0;
+        height: 100%;
+        background: linear-gradient(90deg, #00d8de, #34e7e4);
+        border-radius: 10px;
+        animation: progress 3s ease-in forwards;
+    }
+
+    .progress-text{
+        text-align: center;
+        margin-top:13px;
+        font-size: 20px;
+        color: #eee;
+    }
+
+    @keyframes progress {
+        6% {width: 0;}
+        100% {width: 100%;}
+    } 
+    
+</style>
+<body>
+
+    <div class="progress-container">
+        <div class="progess-bar">
+            <div class="progress-fill">
+                <div class="progress-text">Loading....</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
