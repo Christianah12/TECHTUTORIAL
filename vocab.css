@@ -1,0 +1,26 @@
+#black{
+    color: black;
+}
+#pink{
+    color: pink;
+}
+#red{
+    color:red;
+}
+#grey{
+    color: grey;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
+.color-title{
+    font-weight:40px;
+}
+img{
+    width:200px;
+    height:200px;
+}
+
