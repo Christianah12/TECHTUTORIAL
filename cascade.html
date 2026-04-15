@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Sheet</title>
+</head>
+<style>
+    #outer-con{
+        background-color: darkmagenta;
+    }
+    .con{
+        background-color: darkcyan;
+        padding: 10px;
+    }
+    p{
+        color:yellowgreen;
+        margin: 0;
+        padding:0;
+    }
+    .blue-text{
+        color:blue;
+        /* background-color: darkorchid; */
+    }
+    .inner-con{
+        background-color: darksalmon;
+    }
+</style>
+<body>
+    <div id="outer-con" class="con">
+        <div class="con">
+            <p class="blue-text">Blue Text</p>
+        </div>
+    <div class="inner-con">
+        <p>Yellow Text</p>
+    </div>
+    <div class="con">
+        <p class="blue-text">Blue Text</p>
+    </div>
+    <div class="inner-con">
+        <p>Yellow Text</p>
+    </div>
+    </div>
+</body>
+</html>
